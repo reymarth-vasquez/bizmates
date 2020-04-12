@@ -14,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+/*Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+});*/
+
+Route::group(['prefix' => 'place/'], function(){
+	Route::get('/search', 'PlaceController@searchPlace');
+	Route::get('/venue', 'PlaceController@getVenue');
+	Route::get('/weather', 'PlaceController@getWeather');
 });
