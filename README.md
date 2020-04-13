@@ -9,6 +9,6 @@
 
 ## UI and UX implementation and code implementation
 
-On my UI/UX design, I made my website more appealing to the end users. My approach is simple and minimal design. This is approach is easy to the eye of the users and easy to navigate. I ahve also optimized the assets.
+On my UI/UX design, I made my website more appealing to the end users. My approach is simple and minimal design. I used Bootstrap 4 and Sass for responsiveness to make it easy to the eye of the users and easy to navigate. I havve also optimized the assets.
 
 On my code implementation, I used Laravel and OOP approach for better code readability and fast-loading resources.
